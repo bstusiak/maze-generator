@@ -60,7 +60,13 @@ public class MazeGenerator {
         makeMaze();
         printMaze();
         printPath();
-    }
+        
+        // Rina Ryu - My 15x15 maze and path
+        n = 15;
+        makeMaze();
+        printMaze();
+        printPath(); 
+    }   
 
     private static void makeMaze() {
         numVisited = 0;
