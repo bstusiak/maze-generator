@@ -68,6 +68,13 @@ public class MazeGenerator {
         printMaze();
         printPath();
         
+        // A Shao - My 18x18 maze and path
+        n = 18;
+        makeMaze();
+        printMaze();
+        printPath();
+        
+        
     }
 
     private static void makeMaze() {
