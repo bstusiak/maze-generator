@@ -1,5 +1,5 @@
 /*
- * n=12
+ * n=43
  */
 package mazegenerator;
 
@@ -9,7 +9,7 @@ import java.util.Random;
 
 /**
  *
- * @author stusi
+ * @author Qian
  */
 public class MazeGenerator {
     static int n;
@@ -55,8 +55,8 @@ public class MazeGenerator {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // B Stusiak - My 12x12 maze and path
-        n = 12;
+        // Qian Bai - My 43x43 maze and the path for the maze
+        n = 43;
         makeMaze();
         printMaze();
         printPath();
