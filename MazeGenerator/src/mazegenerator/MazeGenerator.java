@@ -55,7 +55,7 @@ public class MazeGenerator {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Qian Bai - My 43x43 maze and the path for the maze
+        // Qian Bai - My 43x43 maze and the path for the maze 
         n = 43;
         makeMaze();
         printMaze();
