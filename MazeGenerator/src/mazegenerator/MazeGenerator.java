@@ -12,6 +12,7 @@ import java.util.Random;
  * @author stusi
  */
 public class MazeGenerator {
+
     static int n;
     static int lastr;
     static int lastc;
@@ -42,7 +43,7 @@ public class MazeGenerator {
                     System.out.print(" ");
                 }
                 if (east[i][j]) {
-                System.out.print('|');
+                    System.out.print('|');
                 } else {
                     System.out.print(" ");
                 }
@@ -50,13 +51,13 @@ public class MazeGenerator {
             System.out.println("");
         }
     }
-        
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // B Stusiak - My 12x12 maze and path
-        n = 12;
+        // F Chen - My 16x16 maze and path
+        n = 16;
         makeMaze();
         printMaze();
         printPath();
@@ -94,7 +95,7 @@ public class MazeGenerator {
         lastc = -1;
         //printMaze();
         path = new ArrayList<>();
-        while (numVisited < n*n) { // go until all squares have been visited
+        while (numVisited < n * n) { // go until all squares have been visited
             //System.out.println("r = " + Integer.toString(r) + ", c = " + Integer.toString(c));
             if (!visited[r][c]) {
                 visited[r][c] = true;
@@ -107,8 +108,8 @@ public class MazeGenerator {
                     // check boundaries
                     if (r + i >= 0 && r + i < n && c + j >= 0 && c + j < n) {
                         // check visited and don't include diagonals
-                        if (!visited[r+i][c+j] && (i == 0 || j == 0)) {
-                            neighs.add(new int[]{r+i,c+j});
+                        if (!visited[r + i][c + j] && (i == 0 || j == 0)) {
+                            neighs.add(new int[]{r + i, c + j});
                             //System.out.println("neighbor (" + Integer.toString(r+i)+","+ Integer.toString(y+j)+")");
                         }
                         //System.out.println(neighs.size());
@@ -117,17 +118,17 @@ public class MazeGenerator {
             }
             if (neighs.isEmpty()) {
                 if (r != lastr || c != lastc) {
-                r = lastr;
-                c = lastc;
+                    r = lastr;
+                    c = lastc;
                 } else {
-                    r = path.get(path.size()-1)[0];
-                    c = path.get(path.size()-1)[1];
-                    path.remove(path.size()-1);
+                    r = path.get(path.size() - 1)[0];
+                    c = path.get(path.size() - 1)[1];
+                    path.remove(path.size() - 1);
                     //printPath();                    
                 }
             } else {
                 int next = rand.nextInt(neighs.size());
-                path.add(new int[]{lastr,lastc});
+                path.add(new int[]{lastr, lastc});
                 //printPath();
                 lastr = r;
                 lastc = c;
@@ -151,17 +152,17 @@ public class MazeGenerator {
                 }
             }
         }
-    
+
     }
-    
+
     private static void printPath() {
         for (int i = 0; i < path.size(); i++) {
             System.out.print(Arrays.toString(path.get(i)) + " ");
-            if (i%15 == 0) {
+            if (i % 15 == 0) {
                 System.out.println();
             }
         }
         System.out.println();
     }
-    
+
 }
