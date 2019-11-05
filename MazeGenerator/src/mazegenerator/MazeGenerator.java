@@ -62,6 +62,7 @@ public class MazeGenerator {
         printPath();
         
         //Martin - My 48x48 maze and path
+        //did I create a feature branch?
         n = 48;
         makeMaze();
         printMaze();
