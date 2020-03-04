@@ -62,11 +62,12 @@ public class MazeGenerator {
         printPath();
         
         
-        // R Chen - My new maze. Dimensions are 15 x 15.
-        n = 15;
+        // Divij
+        n = 11;
         makeMaze();
         printMaze();
         printPath();
+        
         
     }
 
