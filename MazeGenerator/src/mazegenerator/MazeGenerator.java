@@ -68,6 +68,11 @@ public class MazeGenerator {
         printMaze();
         printPath();
         
+        //Ethan Gray - Dimensions are 10 x 10
+        n =10;
+        makeMaze();
+        printMaze();
+        printPath()       
     }
 
     private static void makeMaze() {
