@@ -68,7 +68,7 @@ public class MazeGenerator {
         printMaze();
         printPath();
         
-        // J Luo - Josh's Maze. Given dimensions are 3 x 3.
+        // J Luo - Josh's Maze. The given dimensions are 3 x 3.
         n = 3;
         makeMaze();
         printMaze();
