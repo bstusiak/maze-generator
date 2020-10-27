@@ -68,6 +68,11 @@ public class MazeGenerator {
         printMaze();
         printPath();
         
+        // S Zhuang - My new maze. Dimensions are 6 x 6.
+        n = 6;
+        makeMaze();
+        printMaze();
+        printPath();
     }
 
     private static void makeMaze() {
