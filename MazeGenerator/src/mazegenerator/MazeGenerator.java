@@ -68,12 +68,6 @@ public class MazeGenerator {
         printMaze();
         printPath();
         
-        // J Luo - Josh's Maze. Chosen dimensions are 6 x 6.
-        n = 6;
-        makeMaze();
-        printMaze();
-        printPath();
-        
     }
 
     private static void makeMaze() {
