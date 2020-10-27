@@ -72,7 +72,7 @@ public class MazeGenerator {
         n =10;
         makeMaze();
         printMaze();
-        printPath()       
+        printPath();       
     }
 
     private static void makeMaze() {
