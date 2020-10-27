@@ -68,6 +68,13 @@ public class MazeGenerator {
         printMaze();
         printPath();
         
+        // Jason Wang - dimensions are 10 x 10
+        n = 10;
+        makeMaze();
+        printMaze();
+        printPath();
+        
+        
     }
 
     private static void makeMaze() {
