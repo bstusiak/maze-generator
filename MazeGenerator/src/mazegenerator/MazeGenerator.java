@@ -68,6 +68,11 @@ public class MazeGenerator {
         printMaze();
         printPath();
         
+        // C Na - New maze; dimensions are 8 x 8.
+        n = 8;
+        makeMaze();
+        printMaze();
+        printPath();
     }
 
     private static void makeMaze() {
