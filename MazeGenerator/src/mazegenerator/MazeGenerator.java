@@ -68,8 +68,8 @@ public class MazeGenerator {
         printMaze();
         printPath();
         
-        // C Cui - My new maze of dimensions 20x20.
-        n = 15;
+        // C Cui - My new maze of dimensions 20x20
+        n = 20;
         makeMaze();
         printMaze();
         printPath();
