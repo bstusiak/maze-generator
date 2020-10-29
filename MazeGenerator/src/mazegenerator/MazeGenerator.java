@@ -60,6 +60,12 @@ public class MazeGenerator {
         makeMaze();
         printMaze();
         printPath();
+        
+         // J Ma - My 20x20 maze and path
+        n = 20;
+        makeMaze();
+        printMaze();
+        printPath();
     }
 
     private static void makeMaze() {
