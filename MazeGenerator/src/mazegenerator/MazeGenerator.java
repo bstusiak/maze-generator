@@ -68,11 +68,13 @@ public class MazeGenerator {
         printMaze();
         printPath();
         
-        // K Thom - Maze of dimmensions 21x21.
-        n = 21;
+        // K Thom - Maze of dimmensions 24x24.
+        n = 24;
         makeMaze();
         printMaze();
-        printPath();
+        printPath();        
+
+        
         
     }
 
