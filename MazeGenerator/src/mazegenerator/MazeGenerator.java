@@ -1,6 +1,7 @@
 /*
  * n=12
  */
+// Samrath was here 
 package mazegenerator;
 
 import java.util.ArrayList;
@@ -64,6 +65,12 @@ public class MazeGenerator {
         
         // R Chen - My new maze. Dimensions are 15 x 15.
         n = 15;
+        makeMaze();
+        printMaze();
+        printPath();
+        
+        // S Dua - My new maze. Dimensions are 20 x 20.
+        n = 20;
         makeMaze();
         printMaze();
         printPath();
