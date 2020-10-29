@@ -1,5 +1,5 @@
 /*
- * n = 30
+ * n = 40
  */
 package mazegenerator;
 
@@ -62,11 +62,11 @@ public class MazeGenerator {
         printPath();
         
         
-        // Jaewon H - My new maze. Dimensions are 30 x 30.
-        n = 30;
-        makeMaze();
-        printMaze();
-        printPath();
+        // Jaewon Han - My new maze. Dimensions are 40 x 40.
+        n = 40;
+        makeMaze ();
+        printMaze ();
+        printPath ();
         
     }
 
