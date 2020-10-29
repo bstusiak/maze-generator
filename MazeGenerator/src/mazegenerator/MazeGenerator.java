@@ -1,7 +1,7 @@
 /*
  * n=12
  */
-//package mazegenerator;
+package mazegenerator;
 
 import java.util.ArrayList;
 import java.util.Arrays;
