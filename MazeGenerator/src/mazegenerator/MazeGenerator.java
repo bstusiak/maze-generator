@@ -1,16 +1,11 @@
-/*
- * n=12
- */
+
 package mazegenerator;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
-/**
- *
- * @author stusi
- */
+
 public class MazeGenerator {
     static int n;
     static int lastr;
@@ -55,15 +50,10 @@ public class MazeGenerator {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // B Stusiak - My 12x12 maze and path
-        n = 12;
-        makeMaze();
-        printMaze();
-        printPath();
         
-        
-        // R Chen - My new maze. Dimensions are 15 x 15.
-        n = 15;
+        // Angelina - New dimensions: 19 x 19
+        n = 19;
+        n = 19;
         makeMaze();
         printMaze();
         printPath();
