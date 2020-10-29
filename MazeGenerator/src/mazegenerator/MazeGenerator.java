@@ -68,6 +68,12 @@ public class MazeGenerator {
         printMaze();
         printPath();
         
+        //L LEANa mAZeeeeee 10 X 10 
+        n = 10;
+        makeMaze();
+        printMaze();
+        printPath();
+        
     }
 
     private static void makeMaze() {
