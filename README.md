@@ -1,1 +1,1 @@
-# maze-generator
+Forked for a school assignment.
